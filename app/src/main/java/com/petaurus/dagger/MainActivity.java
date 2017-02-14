@@ -10,8 +10,6 @@ public class MainActivity extends AppCompatActivity {
 
 	@Inject
 	Rest rest;
-//	@Inject
-//	Realm realm;
 
 	Button button;
 
@@ -28,8 +26,4 @@ public class MainActivity extends AppCompatActivity {
 	public Rest getRest() {
 		return rest;
 	}
-
-//	public Realm getRealm() {
-//		return realm;
-//	}
 }
